@@ -3,7 +3,7 @@ import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import { logo } from "./assets";
 import { Home, CreatePost } from "./pages";
 
-function App() {
+const App = ()=> {
   return (
     <BrowserRouter>
       <header
