@@ -14,9 +14,6 @@ app.use(express.json({limit: '50mb'}));
 app.use('/api/v1/post',postRoutes);
 app.use('/api/v1/dalle',dalleRoutes);
 
-app.get('/',async (request ,response ) =>{
-    response.send('Hello from DALL-E!')
-})
 
 const startServer = async ()=> {
 
@@ -26,9 +23,6 @@ const startServer = async ()=> {
     } catch (error) {
         console.log(error)
     }
-
-
-
    
 }
 
