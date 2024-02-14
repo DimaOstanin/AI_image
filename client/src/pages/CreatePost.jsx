@@ -93,9 +93,9 @@ const CreatePost = () => {
             handleChange={handleChange}
             />
             <FormField 
-            labelName="Promt"
+            labelName="Prompt"
             type="text"
-            name="promt"
+            name="prompt"
             placeholder="  A plush toy robot sitting against a yellow wall"
             value={form.prompt}
             handleChange={handleChange}
